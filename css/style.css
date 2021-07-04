@@ -1,0 +1,118 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+/*commen start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*commen end*/
+/*header start*/
+header{
+    padding: 30px 0;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    margin-top: 6px;
+    width: 12%;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin: 0 65px;
+    display: inline-block;
+    font-size: 22px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover {
+    color: #000000;
+}
+/*header end*/
+
+/*secend header start*/
+.tinyone{
+    margin-top: 40px;
+    background: #fcdb00;
+}
+.wapper{
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 70%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.logo-1{
+    margin-top: 20px;
+    width: 15%;
+    /*border: 1px solid green;*/
+    float: left;
+}
+.logo-1 a{
+    display: inline-block;
+}
+.logo-1 a img{
+    width: 100%;
+}
+/*.logo-1 h1{
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 30px;
+    color: #010101;
+}*/
+.menu-1{
+    margin-top: 13px;
+    width: 50%;
+    float: right;
+    /*border: 1px solid green;*/
+}
+.menu-1 ul{
+    float: right;
+}
+.menu-1 ul li{
+    float: left;
+    list-style: none;
+}
+.menu-1 ul li a{
+    margin: 0 45px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+    display: inline-block;
+    transition: 0.4s;
+}
+.menu-1 ul li:last-child a{
+    margin-right: 0;
+}
+.menu-1 ul li a:hover {
+    color: white;
+}
+/*secend header end*/
